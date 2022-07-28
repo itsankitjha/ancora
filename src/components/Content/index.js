@@ -173,12 +173,8 @@ const Content = () => {
           </Box>
         </Grid>
       </Grid>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <Grid container>
+
+      <Grid container sx={{ marginTop: "140px" }}>
         <Grid
           item
           xs={12}
