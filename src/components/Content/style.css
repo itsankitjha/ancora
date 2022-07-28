@@ -1,0 +1,27 @@
+svg {
+  height: 100px;
+  width: 100px;
+}
+circle {
+  fill: transparent;
+  stroke: green;
+  stroke-width: 3;
+}
+.solid {
+  stroke-dasharray: none;
+}
+.dashed {
+  stroke-dasharray: 8, 8.5;
+}
+.dotted {
+  stroke-dasharray: 0.1, 12.5;
+  stroke-linecap: round;
+}
+div {
+  height: 100px;
+  width: 100px;
+  color: green;
+  font-weight: bold;
+  text-align: center;
+  line-height: 100px;
+}
